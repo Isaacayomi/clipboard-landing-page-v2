@@ -309,3 +309,70 @@ footer {
   line-height: 1.875rem;
   letter-spacing: 0.00844rem;
 }
+
+.social__logos {
+  margin-top: 3.14rem;
+  margin-bottom: 3.19rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+  .section__1 {
+    background-image: url("./img/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .heading {
+    width: 45.625rem;
+    color: #4c545c;
+    text-align: center;
+    font-size: 2.875rem;
+    font-weight: 600;
+    letter-spacing: -0.04688rem;
+    padding-top: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .paragraph__text {
+    width: 45.625rem;
+    color: #9eabb2;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    letter-spacing: 0.00938rem;
+  }
+
+  .btns {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 29.375rem;
+    margin-inline: auto;
+    margin-bottom: 9.38rem;
+  }
+
+  .btns button:nth-child(1),
+  .btns button:nth-child(2) {
+    width: 14.1875rem;
+  }
+
+  h2.heading {
+    width: 45.625rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+  }
+
+  .section__2 p {
+    width: 45.625rem;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    letter-spacing: 0.00844rem;
+  }
+}
