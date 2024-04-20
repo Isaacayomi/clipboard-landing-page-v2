@@ -115,7 +115,7 @@ h2.heading {
 }
 
 .desktop {
-  display: none;
+  /* display: none; */
 }
 
 .desktop__img {
@@ -370,7 +370,6 @@ footer {
     width: 45.625rem;
     font-size: 2.25rem;
     font-weight: 600;
-
   }
 
   .section__2 p.paragraph__text {
@@ -383,21 +382,32 @@ footer {
   }
 
   .sided__content {
+    /* width: 90rem; */
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 6.88rem;
   }
 
-  .mobile {
+  /* .mobile {
     display: none;
+  } */
+
+  .desktop__img {
+    display: block;
+    margin-inline: auto;
+    width: 30rem;
+    height: auto;
+  }
+
+  .desktop__img img.desktop {
+    width: 100%;
   }
 
   .grouped__section__2 {
-    padding-right: 16.25rem;
-    padding-left: 6.88rem;
+    padding-right: 5rem;
+    /* padding-left: 6.88rem; */
   }
- 
+
   .sub__heading {
     width: 21.875rem;
     font-size: 1.5rem;
@@ -409,6 +419,80 @@ footer {
     font-size: 1rem;
     margin-inline: 0;
     text-align: left;
-    /* border: 1px solid red; */
   }
+
+  .section__3 h2:nth-child(1) {
+    margin-top: 9.38rem;
+    width: 45.625rem;
+    margin-bottom: 1.19rem;
+    font-size: 2.25rem;
+  }
+
+  .section__3 p {
+    width: 45.625rem;
+    font-size: 1.125rem;
+    margin-bottom: 6.99rem;
+  }
+
+  .tablet__img {
+    width: 44.5rem;
+  }
+
+  .tablet__img img {
+    width: 100%;
+  }
+
+  .sub__section h2 {
+    margin-bottom: 0;
+  }
+
+  .sub__section p {
+    width: 45.625rem;
+    font-size: 1.125rem;
+    margin-bottom: 0;
+  }
+
+  .grouped__section {
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.87rem;
+  }
+
+  .grouped__section .header {
+    width: 21.875rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+
+  .grouped__section .paragraph {
+    width: 21.875rem;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+
+  .tech__companies__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8rem;
+    padding-inline: 2rem;
+    flex-wrap: wrap;
+  }
+
+.section__4 {
+  width: 45.625rem;
+}
+
+.section__4 .sub__header {
+  font-size: 2.25rem;
+}
+
+.section__4 .sub__text {
+  font-size: 1.125rem;
+
+}
 }
