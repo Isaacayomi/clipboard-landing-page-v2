@@ -81,12 +81,23 @@ body {
   background: #26bba4;
   box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset,
     0px 10px 20px 0px rgba(137, 229, 199, 0.5);
+  transition: 0.2s ease-in-out;
+}
+
+.btns button:nth-child(1):hover {
+  background: rgba(38, 187, 164, 0.3);
+  cursor: pointer;
 }
 
 .btns button:nth-child(2) {
   background: #6174ff;
   box-shadow: 0px -3px 0px 0px rgba(0, 0, 0, 0.15) inset,
     0px 10px 20px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease-in-out;
+}
+
+.btns button:nth-child(2):hover {
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .btns button a {
@@ -312,6 +323,10 @@ footer {
   font-weight: 400;
   line-height: 1.875rem;
   letter-spacing: 0.00844rem;
+}
+
+.footer__nav__link a:hover {
+  color: #26bba4;
 }
 
 .social__logos {
