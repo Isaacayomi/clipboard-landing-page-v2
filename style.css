@@ -493,6 +493,26 @@ footer {
 
 .section__4 .sub__text {
   font-size: 1.125rem;
+}
 
+footer {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+.footer__container {
+  width: 51.5625rem;
+display: flex;
+margin-right: 10.31rem;
+}
+
+.footer__first__col, .footer__sec__col {
+  gap: 0;
+}
+
+.footer__nav__link {
+  flex-direction: row;
+  gap: 6rem;
 }
 }
